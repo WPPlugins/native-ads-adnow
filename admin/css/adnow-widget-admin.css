@@ -1,0 +1,392 @@
+@font-face{
+font-family:OpenSans-Light;
+src:url(../fonts/OpenSansLight/OpenSans-Light.eot);
+src:url(../fonts/OpenSansLight/OpenSans-Light.eot?#iefix) format('embedded-opentype'),url(../fonts/OpenSansLight/OpenSans-Light.woff2) format('woff2'),url(../fonts/OpenSansLight/OpenSans-Light.woff) format('woff'),url(../fonts/OpenSansLight/OpenSans-Light.ttf) format('truetype');
+font-weight:300;
+font-style:normal
+}
+
+@font-face{
+font-family:OpenSans-SemiBold;
+src:url(../fonts/OpenSansSemiBold/OpenSans-Semibold.eot);
+src:url(../fonts/OpenSansSemiBold/OpenSans-Semibold.eot?#iefix) format('embedded-opentype'),url(../fonts/OpenSansSemiBold/OpenSans-Semibold.woff2) format('woff2'),url(../fonts/OpenSansSemiBold/OpenSans-Semibold.woff) format('woff'),url(../fonts/OpenSansSemiBold/OpenSans-Semibold.ttf) format('truetype');
+font-weight:600;
+font-style:normal
+}
+
+.adnow-block.account-block {
+    display: inline-block;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.display_block .content .container{
+background:#fff
+}
+
+.display_block .content .adn_left{
+overflow:hidden;
+padding:25px
+}
+
+.display_block .content .adn_right{
+width:250px;
+float:right;
+padding:25px
+}
+
+.display_block .setup{
+border:1px solid #95a1a8;
+background:#fff;
+border-radius:11px;
+overflow:hidden;
+margin:30px 0
+}
+
+.display_block .setup .title{
+background:#3a3f45;
+font:30px OpenSans-Light;
+color:#fff;
+padding:5px 15px 5px 29px
+}
+
+.display_block .setup .text{
+padding:42px;
+font-size:0
+}
+
+.display_block.account{
+border:1px solid #95a1a8;
+background:#fff;
+border-radius:11px;
+overflow:hidden;
+max-width:530px;
+width:100%;
+float:left;
+margin-bottom:18px;
+margin-right: 30px;
+}
+
+.display_block.account .title{
+background:#3a3f45;
+font:30px OpenSans-Light;
+color:#fff;
+padding:5px 15px 5px 29px
+}
+
+.display_block.account .text{
+padding:30px 35px 30px
+}
+
+.display_block.account .text b{
+font:20px OpenSans-SemiBold;
+color:#22272e
+}
+
+.display_block.account .text a{
+color:#397594;
+text-decoration:none
+}
+
+.display_block.account .text a:hover{
+text-decoration:underline;
+color:#397594
+}
+
+.display_block.account .text a.site{
+padding-left:22px;
+position:relative
+}
+
+.display_block.account .text a.site:before{
+position:absolute;
+top:2px;
+left:0;
+bottom:0;
+background:url(../images/site.png) 0 100% no-repeat;
+background-size:14px auto;
+-webkit-background-size:14px auto;
+width:14px;
+height:14px;
+margin:auto 0;
+content:''
+}
+
+.display_block.account .text a.site:hover:before{
+background-position:0 0
+}
+
+.display_block.account .text a.help{
+padding-left:22px;
+position:relative
+}
+
+.display_block.account .text a.help:before{
+position:absolute;
+top:2px;
+left:0;
+bottom:0;
+background:url(../images/help.png) 0 100% no-repeat;
+background-size:15px auto;
+-webkit-background-size:15px auto;
+width:15px;
+height:15px;
+margin:auto 0;
+content:''
+}
+
+.display_block.account .text a.help:hover:before{
+background-position:0 0
+}
+
+.display_block.account .text p{
+margin:10px 0;
+font:20px OpenSans-Light
+}
+
+.display_block.account .text p span{
+float:right
+}
+
+.display_block.account .text .submit{
+display:inline-block;
+vertical-align:middle;
+background:#e71642;
+width:172px;
+height:38px;
+font:15.5px/36px OpenSans-Light;
+color:#fff;
+text-align:center;
+text-decoration:none;
+border-radius:18px;
+border:2px solid #aa3347;
+border-width:0 0 2px 0;
+padding: 0;
+}
+
+.display_block.account .text .submit:hover{
+border-bottom-color:transparent
+}
+
+.display_block.account .text .submit:active{
+border-width:2px 0 0 0
+}
+
+.display_block.account .text .submit_cover{
+margin-top:60px;
+font:19px OpenSans-Light;
+color:#95a1a8;
+position:relative
+}
+
+.display_block.account .text .submit_cover.success:after{
+content:'Ads are showing on website';
+position:absolute;
+top:6px;
+right:0;
+background:url(../images/success.png) 0 2px no-repeat;
+background-size:27px 21px;
+-webkit-background-size:27px 21px;
+padding-left:32px
+}
+
+.display_block.account .text .submit_cover.error:after{
+content:'No widgets on a website';
+position:absolute;
+top:6px;
+right:0;
+background:url(../images/error.png) 0 2px no-repeat;
+background-size:23px 23px;
+-webkit-background-size:23px 23px;
+padding-left:32px
+}
+
+.display_block.stats{
+max-width:530px;
+width:100%;
+float:left;
+vertical-align:top;
+margin-bottom:38px
+}
+
+.display_block.stats .title{
+font:30px OpenSans-Light;
+color:#22272e;
+padding-bottom:10px
+}
+
+.display_block.stats .text{
+border:1px solid #95a1a8;
+background:#fff;
+border-radius:11px;
+padding:35px;
+font:18px OpenSans-Light;
+color:#22272e
+}
+
+.display_block.stats .text .adn_name{
+padding-left:24px;
+background:url(../images/visits.png) 0 50% no-repeat;
+background-size:16px 10px;
+-webkit-background-size:16px 10px
+}
+
+.display_block.stats .text .value{
+font:20px OpenSans-SemiBold;
+color:#22272e;
+padding:8px 0 0 24px
+}
+
+.display_block.adblock{
+max-width:530px;
+width:100%;
+float:left;
+vertical-align:top;
+margin-bottom:18px
+}
+
+.display_block.adblock .title{
+font:30px OpenSans-Light;
+color:#22272e;
+padding-bottom:10px
+}
+
+.display_block.adblock .text{
+border:1px solid #95a1a8;
+background:#fff;
+border-radius:11px;
+padding:35px;
+font:18px OpenSans-Light;
+color:#22272e
+}
+
+.personal_data {
+    display: inline-block;
+    width: 100%;
+}
+
+.display_block.adblock .checkbox_cover{
+font:18px OpenSans-Light;
+color:#95a1a8;
+position:relative
+}
+
+.display_block.adblock .checkbox_cover.success:after{
+content:'Antiadblock works';
+position:absolute;
+top:2px;
+right:0;
+background:url(../images/success.png) 0 2px no-repeat;
+background-size:27px 21px;
+-webkit-background-size:27px 21px;
+padding-left:32px
+}
+
+.display_block.adblock .checkbox_cover.error:after{
+content:'Antiadblock doesnвЂ™t work';
+position:absolute;
+top:2px;
+right:0;
+background:url(../images/error.png) 0 2px no-repeat;
+background-size:23px 23px;
+-webkit-background-size:23px 23px;
+padding-left:32px
+}
+
+.display_block label{
+display:inline-block;
+vertical-align:middle;
+cursor:pointer;
+font-size:0
+}
+
+.display_block label.col-3{
+width:33.333%
+}
+
+.display_block label.col-3 .check{
+margin-left:25px
+}
+
+.display_block label img{
+vertical-align:middle
+}
+
+.display_block label .checkbox{
+display:none
+}
+
+.display_block label .checkbox:checked+.check{
+background:#e71642;
+background:-moz-linear-gradient(top,#e71642 0,#d01642 100%);
+background:-webkit-linear-gradient(top,#e71642 0,#d01642 100%);
+background:linear-gradient(to bottom,#e71642 0,#d01642 100%);
+filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#e71642', endColorstr='#d01642', GradientType=0)
+}
+
+.display_block label .checkbox:checked+.check i{
+margin-left:30px
+}
+
+.display_block label .check{
+padding:2px;
+width:54px;
+border-radius:14px;
+overflow:hidden;
+vertical-align:middle;
+display:inline-block;
+background:#d3d2d2;
+background:-moz-linear-gradient(top,#d3d2d2 0,#bfbebe 100%);
+background:-webkit-linear-gradient(top,#d3d2d2 0,#bfbebe 100%);
+background:linear-gradient(to bottom,#d3d2d2 0,#bfbebe 100%);
+filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#d3d2d2', endColorstr='#bfbebe', GradientType=0);
+max-height: 25px;
+}
+
+.display_block label .check i{
+width:24px;
+height:24px;
+display:inline-block;
+border-radius:12px;
+position:relative;
+font:11.5px OpenSans-Light;
+transition:all .3s;
+color:#fff;
+background:#fefefe;
+background:-moz-linear-gradient(top,#fefefe 0,#e5e5e5 100%);
+background:-webkit-linear-gradient(top,#fefefe 0,#e5e5e5 100%);
+background:linear-gradient(to bottom,#fefefe 0,#e5e5e5 100%);
+filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#fefefe', endColorstr='#e5e5e5', GradientType=0)
+}
+
+.display_block label .check i:before{
+content:'On';
+position:absolute;
+top:4px;
+left:-20px
+}
+
+.display_block label .check i:after{
+content:'Off';
+position:absolute;
+top:4px;
+right:-20px
+}
+
+.display_block label .adn_name{
+font:18px OpenSans-Light;
+color:#22272e;
+vertical-align:middle;
+display:inline-block;
+margin-left:20px
+}
+
+#wpbody-content input#Adnow_Widget_key {
+    width: 60%;
+    float: right;
+}
+
+#wpbody-content p.submit {
+    clear: both;
+    width: 100%;
+}
